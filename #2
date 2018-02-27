@@ -1,0 +1,11 @@
+def abscount(a):
+    if a < 0:
+        b = -a
+        print('The absolute value of %f is %f' %(a,b))
+    else:
+        print('The absolute value of %f is %f' %(a,a))
+
+a = input('Enter a floating-point number:')
+a = float(a)
+abscount(a)
+
