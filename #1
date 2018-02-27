@@ -1,0 +1,16 @@
+# Solve C Programming Review problems by using python
+# Q1
+print("Enter the first integer:")
+num1 = input()
+num1 = int(num1)
+print("Enter the second integer:")
+num2 = input()
+num2 = int(num2)
+if int(num1) >= 0:
+    if int(num2) >= 0:
+        print('The integers %d and %d are both positive'% (num1, num2))
+    else:
+        print('The integers %d and %d are not both positive'% (num1, num2))
+else:
+    print('The integers %d and %d are not both positive'% (num1, num2))
+
